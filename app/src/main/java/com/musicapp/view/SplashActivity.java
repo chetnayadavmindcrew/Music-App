@@ -21,4 +21,8 @@ public class SplashActivity extends AppCompatActivity {
             finish();
         },1000);
     }
+    
+    public void toast(){
+    Toast.makeText(this, "Hello", Toast.LENGTH_SHORT).show();
+    }
 }
