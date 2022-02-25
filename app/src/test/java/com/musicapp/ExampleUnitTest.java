@@ -15,8 +15,9 @@ public class ExampleUnitTest {
         assertEquals(4, 2 + 2);
     }
     
-    @Test
+    /**@Test
     public void show_toast(){
     SplashActivity.toast();
-    }
+    }**/
+   
 }
